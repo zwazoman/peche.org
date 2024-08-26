@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 08f4032cc1d6e1c4185f94e869b89d7e
+guid: 41b120ac0f893234285b3ef372edface
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,16 +8,6 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: feuille
-    second: {fileID: 2100000, guid: 7e33a98b74ca5694eadc7e428771f061, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: feuille.001
-    second: {fileID: 2100000, guid: 7e33a98b74ca5694eadc7e428771f061, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: feuille.003
     second: {fileID: 2100000, guid: 7e33a98b74ca5694eadc7e428771f061, type: 2}
   materials:
     materialImportMode: 2
