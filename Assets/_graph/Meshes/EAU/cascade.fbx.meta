@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: 08f4032cc1d6e1c4185f94e869b89d7e
+guid: 28c1f972794e65d4f89d21a0e6cfa739
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: feuille
-    second: {fileID: 2100000, guid: 7e33a98b74ca5694eadc7e428771f061, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: feuille.001
-    second: {fileID: 2100000, guid: 7e33a98b74ca5694eadc7e428771f061, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: feuille.003
-    second: {fileID: 2100000, guid: 7e33a98b74ca5694eadc7e428771f061, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
