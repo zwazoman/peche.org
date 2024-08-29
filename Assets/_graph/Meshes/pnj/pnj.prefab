@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3598305381219877585}
   - component: {fileID: 5798522148688439017}
   - component: {fileID: 5913754397583956627}
+  - component: {fileID: -9035737439213980377}
   m_Layer: 0
   m_Name: pnj
   m_TagString: Untagged
@@ -107,3 +108,15 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-9035737439213980377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388984415227851120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064d0d6598228114b91b04fe340257ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

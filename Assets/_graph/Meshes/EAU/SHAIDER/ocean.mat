@@ -94,6 +94,7 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 0
+    - _opaciter: 0.2
     - _scale: 49
     - _speed: 1
     m_Colors:
