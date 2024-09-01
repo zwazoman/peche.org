@@ -53,7 +53,7 @@ public class TimeManager : MonoBehaviour
     {
         InvokeRepeating(nameof(TimePass), 0, _hourDurationInRealSecs); //repete la fonction TimePass
         yield return 0;
-        OnHour.Invoke();//premiere heure
+        OnHour?.Invoke();//premiere heure
     }
 
     private void Start()
@@ -91,8 +91,16 @@ public class TimeManager : MonoBehaviour
                 break;
         }
 
-        if (Day % 7 == 0) Week++;
-        if (Day %30 == 0) Month++;
+        if (Day % 7 == 0)
+        {
+            Week++;
+            OnWeek?.Invoke();
+        }
+        if (Day %30 == 0)
+        {
+            Month++;
+            OnMonth?.Invoke();
+        }
     }
 
     public void PauseTime()
