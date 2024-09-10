@@ -14,6 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 4809946887472575389}
+  - {fileID: 5818195986146571108}
+  - {fileID: 2384081453054278569}
+--- !u!114 &2384081453054278569
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f034cba68ab55e046ae1445a42f18c0e, type: 3}
+  m_Name: IndirectLightingController
+  m_EditorClassIdentifier: 
+  active: 1
+  indirectDiffuseLightingMultiplier:
+    m_OverrideState: 1
+    m_Value: 5
+  indirectDiffuseLightingLayers:
+    m_OverrideState: 0
+    m_Value: 255
+  reflectionLightingMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  reflectionLightingLayers:
+    m_OverrideState: 0
+    m_Value: 255
+  reflectionProbeIntensityMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &4809946887472575389
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -165,3 +195,20 @@ MonoBehaviour:
   proceduralSoftness:
     m_OverrideState: 0
     m_Value: 0.5
+--- !u!114 &5818195986146571108
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7ff42a8c5be6646ad3975f3a54c1eb, type: 3}
+  m_Name: DiffusionProfileList
+  m_EditorClassIdentifier: 
+  active: 1
+  diffusionProfiles:
+    m_OverrideState: 1
+    m_Value:
+    - {fileID: 11400000, guid: a4f9b0b21cfa10140b76854ccb395dcf, type: 2}
